@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		174F318E79D065AF62C6E951 /* Pods_DesignCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29940FDE8B4F50B255E95B4C /* Pods_DesignCode.framework */; };
+		74A1E34E24949188002EF52C /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A1E34D24949188002EF52C /* UserStore.swift */; };
 		74DC71662493CD7B0029D9AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DC71652493CD7B0029D9AC /* AppDelegate.swift */; };
 		74DC71682493CD7B0029D9AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DC71672493CD7B0029D9AC /* SceneDelegate.swift */; };
 		74DC716A2493CD7B0029D9AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DC71692493CD7B0029D9AC /* ContentView.swift */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		29940FDE8B4F50B255E95B4C /* Pods_DesignCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesignCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F0BC1FEA9F76FB986601614 /* Pods-DesignCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignCode.debug.xcconfig"; path = "Target Support Files/Pods-DesignCode/Pods-DesignCode.debug.xcconfig"; sourceTree = "<group>"; };
+		74A1E34D24949188002EF52C /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
 		74DC71622493CD7B0029D9AC /* DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74DC71652493CD7B0029D9AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74DC71672493CD7B0029D9AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				74DC71942493D0AA0029D9AC /* Home.swift */,
 				74DC71922493D0A90029D9AC /* HomeView.swift */,
 				74DC718E2493D0A70029D9AC /* LoginView.swift */,
+				74A1E34D24949188002EF52C /* UserStore.swift */,
 				74DC71972493D0AB0029D9AC /* LottieView.swift */,
 				74DC71882493D0A40029D9AC /* LoadingView.swift */,
 				74DC718C2493D0A60029D9AC /* SuccessView.swift */,
@@ -349,6 +352,7 @@
 				74DC71A72493D0AC0029D9AC /* UpdateStore.swift in Sources */,
 				74DC719C2493D0AC0029D9AC /* CourseDetail.swift in Sources */,
 				74DC719B2493D0AC0029D9AC /* Modifiers.swift in Sources */,
+				74A1E34E24949188002EF52C /* UserStore.swift in Sources */,
 				74DC71A92493D0AC0029D9AC /* DataStore.swift in Sources */,
 				74DC71A52493D0AC0029D9AC /* PostList.swift in Sources */,
 				74DC71AB2493D0AC0029D9AC /* RingView.swift in Sources */,
