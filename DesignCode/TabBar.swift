@@ -20,15 +20,14 @@ struct TabBar: View {
                 Text("Courses")
             }
         }
-//        .edgesIgnoringSafeArea(.top)
     }
 }
 
 struct TabBar_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            TabBar().previewDevice("iPhone 8")
             TabBar().previewDevice("iPhone 11 Pro Max")
+                .environmentObject(UserStore())
         }
     }
 }
